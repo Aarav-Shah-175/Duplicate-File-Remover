@@ -33,16 +33,19 @@ Follow these steps to set up and run the program:
 
 1. **Install OpenSSL:**  
    Ensure OpenSSL is installed. Refer to the [OpenSSL Installation Guide](https://www.openssl.org/docs/) for your platform.
+   ```bash
+   sudo apt update
+   sudo apt install libssl-dev
 
-2. **Clone or Download the Repository:**  
+3. **Clone or Download the Repository:**  
    Clone the repository or download the source code to your local machine.
 
-3. **Compile the Program:**  
+4. **Compile the Program:**  
    Use a C++ compiler to compile the program. For example:
    ```bash
    g++ -std=c++17 -o DuplicateFileRemover Duplicate_File_Remover.cpp -lssl -lcrypto
 
-4. **Run the Program**
+5. **Run the Program**
    ```bash
    ./DuplicateFileRemover
 
